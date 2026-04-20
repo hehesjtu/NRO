@@ -58,7 +58,7 @@ To run the code successfully, the following MATLAB toolboxes are required:
 
 Download or clone this repository to your local machine.    
 ```
-bash git clone https://github.com/hehesjtu/NRO-Implementation.git
+bash git clone https://github.com/hehesjtu/NRO.git
 ```
 ## Project Structure
 The following directory hierarchy outlines the organization of the repository:
