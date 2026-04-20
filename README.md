@@ -75,7 +75,7 @@ NRO/
 ├── NRO.p                   # Pre-compiled core algorithm (P-code)
 ├── demo.m                  # Main entry script with GUI
 ├── README.md               # Project documentation
-├── nro_solver.mexw64       ## Pre-compiled C++ core solver for Windows
+├── nro_solver.mexw64       # Pre-compiled C++ core solver for Windows
 ```
 This implementation provides a user-friendly GUI for testing the algorithm on custom images.
 
