@@ -64,7 +64,7 @@ bash git clone https://github.com/hehesjtu/NRO.git
 The following directory hierarchy outlines the organization of the repository:
 ```
 NRO/
-├── data/               # Sample images for testing purposes
+├── data/                   # Sample images for testing purposes
 │   ├── example1.png
 │   └── example2.png
 │   └── ...
@@ -72,11 +72,10 @@ NRO/
 │   ├── example1_enhanced.png
 │   └── example2_enhanced.png
 │   └── ...
-├── NRO.p                 # Pre-compiled core algorithm (P-code)
+├── NRO.p                   # Pre-compiled core algorithm (P-code)
 ├── demo.m                  # Main entry script with GUI
 ├── README.md               # Project documentation
 ├── nro_solver.mexw64       ## Pre-compiled C++ core solver for Windows
-└── requirements.txt        # List of MATLAB toolboxes and dependencies
 ```
 This implementation provides a user-friendly GUI for testing the algorithm on custom images.
 
