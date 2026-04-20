@@ -102,4 +102,5 @@ This implementation provides a user-friendly GUI for testing the algorithm on cu
  `results/`: Stores the corresponding enhanced images processed by the NRO algorithm, serving as a quality reference.
 
  `nro_solver.mexw64`: The Pre-compiled C++ core solver for Windows
+ 
  Note:The code is provided as a mexw64 file for copyright protection. It is functionally identical to the source code described in the paper.
