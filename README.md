@@ -52,19 +52,16 @@ The code has been tested and verified on the following platform:
 To run the code successfully, the following MATLAB toolboxes are required:
 
 * **Image Processing Toolbox** (Required for image I/O, resizing, and metric calculation)
-* **Parallel Computing Toolbox** (Required for the `parpool` acceleration used in the core algorithm)
 
 ## Installation
 
-Download or clone this repository to your local machine.    
-```
-bash git clone https://github.com/hehesjtu/NRO.git
-```
+Download or clone this repository to your local machine.    ```bash git clone https://github.com/hehesjtu/NRO.git
+    ```
 ## Project Structure
 The following directory hierarchy outlines the organization of the repository:
 ```
 NRO/
-├── data/                   # Sample images for testing purposes
+├── data/               # Sample images for testing purposes
 │   ├── example1.png
 │   └── example2.png
 │   └── ...
@@ -72,10 +69,10 @@ NRO/
 │   ├── example1_enhanced.png
 │   └── example2_enhanced.png
 │   └── ...
-├── NRO.p                   # Pre-compiled core algorithm (P-code)
+├── NRO.p                 # Pre-compiled core algorithm (P-code)
 ├── demo.m                  # Main entry script with GUI
 ├── README.md               # Project documentation
-├── nro_solver.mexw64       # Pre-compiled C++ core solver for Windows
+└── nro_solver.mexw64       # Pre-compiled C++ core solver for Windows
 ```
 This implementation provides a user-friendly GUI for testing the algorithm on custom images.
 
@@ -96,9 +93,8 @@ This implementation provides a user-friendly GUI for testing the algorithm on cu
 
  `NRO.p`: The pre-compiled binary file of the core NRO algorithm. 
   Note: The core algorithm is provided as a P-code file for copyright protection. It is functionally identical to the source code described in the paper.
-  
+  `nro_solver.mexw64`: The Pre-compiled C++ core solver for Windows.
+   Note:The code is provided as a mexw64 file for copyright protection. It is functionally identical to the source code described in the paper.
  `data/`: (Optional) Contains sample images for testing.
 
  `results/`: Stores the corresponding enhanced images processed by the NRO algorithm, serving as a quality reference.
-
- `nro_solver.mexw64`: The Pre-compiled C++ core solver for Windows. The code is provided as a mexw64 file for copyright protection. It is functionally identical to the source code described in the paper.
