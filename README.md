@@ -92,9 +92,13 @@ This implementation provides a user-friendly GUI for testing the algorithm on cu
  `demo.m`: The main entry point script containing the GUI implementation and interaction logic.
 
  `NRO.p`: The pre-compiled binary file of the core NRO algorithm. 
-  Note: The core algorithm is provided as a P-code file for copyright protection. It is functionally identical to the source code described in the paper.
+ 
+   Note: The core algorithm is provided as a P-code file for copyright protection. It is functionally identical to the source code described in the paper.
+  
   `nro_solver.mexw64`: The Pre-compiled C++ core solver for Windows.
+  
    Note:The code is provided as a mexw64 file for copyright protection. It is functionally identical to the source code described in the paper.
+   
  `data/`: (Optional) Contains sample images for testing.
 
  `results/`: Stores the corresponding enhanced images processed by the NRO algorithm, serving as a quality reference.
